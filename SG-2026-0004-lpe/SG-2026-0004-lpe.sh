@@ -454,7 +454,7 @@ main() {
   restore_core_pattern
 
   echo
-  ok "EXPLOIT SUCCESSFUL"
+  ok "SUCCESSFUL"
   ok "Final core_pattern: $(read_core_pattern)"
 }
 
