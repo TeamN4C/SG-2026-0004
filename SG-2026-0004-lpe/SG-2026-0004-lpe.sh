@@ -11,7 +11,7 @@ if [ -z "${SETUP_SCRIPT:-}" ]; then
   fi
 fi
 
-STATE_DIR="${STATE_DIR:-/tmp/sg-2026-0004-lpe}"
+STATE_DIR="${STATE_DIR:-/tmp/sg-2026-0004-exploit}"
 DOCKERD_LOG="${DOCKERD_LOG:-$STATE_DIR/dockerd.log}"
 DOCKER_HOST="${DOCKER_HOST:-unix:///var/run/docker.sock}"
 
